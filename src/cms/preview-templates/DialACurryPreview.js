@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { DialACurryTemplate } from '../../templates/dial-a-curry'
 
 const DialACurryPreview = ({ entry, widgetFor }) => (
-  <MealDealsTemplate
+  <DialACurryTemplate
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
   />
